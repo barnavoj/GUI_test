@@ -4,5 +4,9 @@
   "python.analysis.addImport.exactMatchOnly": true,
   "python.analysis.autoImportCompletions": true,
   "python.analysis.completeFunctionParens": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }
